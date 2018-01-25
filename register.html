@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="Expires" content="0">
+	<meta http-equiv="Pragma" content="no-cache">
+	<meta http-equiv="Cache-control" content="no-cache">
+	<meta http-equiv="Cache" content="no-cache">
+	<title>登陆</title>
+</head>
+<link rel="stylesheet" type="text/css" href="css/enter.css">
+<body>
+	<div class="secondHeader">
+		<div class="secondHeaderCenter-clearfix">
+			<div class="sheaderLeft">
+				<img src="img/logo.png">
+			</div>
+			<div class="sheaderRight">
+				<a href="index.html">寺库首页</a>
+				<a href="#">收藏寺库</a>
+				<a href="#">寺库APP</a>
+			</div>
+		</div>
+	</div>
+	<div class="bgcolor">
+		<div class="reg_box">
+			<div class="reg_center">
+				<div class="tab_phone">
+					<ul class="login_ewm">
+						<li id="saoma">扫码登录</li>
+						<li class="on" id="mima">密码登录</li>
+					</ul>
+					<div class="login_ewm_cont" id="inp" style="display: none">
+						<ul class="clearfix">
+							<li>
+								<div class="login_tips">
+									<label id="lab1">用户名/手机号/邮箱</label>
+									<input type="text" id="num1">
+								</div>
+							</li>
+							<li>
+								<div class="login_tips">
+									<label id="lab2">密码</label>
+									<input type="password" id="num2">
+								</div>
+							</li>
+						</ul>
+						<li>
+                            <label class="rememberMe"><input type="checkbox" checked="checked" id="rememberUserLoginInfo"> 记住账号</label>
+                        </li>
+					</div>
+					<div class="btn_submit" id="btn"  style="display: none">
+                        <input id="loginButton" class="input_sub login_btn" name="" type="button" value="立即登录" tabindex="3">
+                    </div>
+					<div id="scan">
+						<div id="loginEwm">
+							<img src="img/show.png">
+						</div>
+						<p class="textts">打开<a href="http://www.secoo.com/special/sikuApp.shtml" target="_blank">寺库app</a>扫一扫登录</p>
+					</div>
+                    <div class="jiathis">
+		                <p>使用合作网站账号登录</p>
+		                <p>
+		                    <a style="display: inline-block; width: 50px; height: 25px; cursor: pointer;" onclick="qqLogin()">
+		                        <img src="https://passport.secoo.com/images/qq.jpg" alt="QQ登录">
+		                        <span style="margin-left: 5px;">QQ</span>
+		                    </a>
+		                    <a style="display: inline-block; width: 60px; height: 25px; cursor: pointer;" onclick="weixinLogin()">
+		                        <img src="https://passport.secoo.com/images/WeChat.png" alt="微信登录" style="height: 24px;"  class="weix">
+		                        <span style="margin-left: 5px;">微信</span>
+		                    </a>
+		                </p>
+		            </div>
+		            <div class="msg clearfix">
+
+		                <span class="fl">还不是寺库会员？<a href="enter.html" class="active">免费注册</a></span>
+		                <span class="fr"><a href="/findPassword/" target="_blank">忘记密码？</a></span>
+		            </div>
+				</div>
+			</div>
+		</div>
+	</div>
+			<div class="nfooter">
+			<div class="nfooter-ncontainer">
+				<ul class="nfooter-list">
+					<li>
+						<a href="#">新手指南</a><br/>
+						<a href="#">付款方式</a><br/>
+						<a href="#">物流配送</a><br/>
+						<a href="#">售后服务</a><br/>
+					</li>
+					<li>
+						<a href="#">寺库微博</a><br/>
+						<a href="#">友情链接</a><br/>
+						<a href="#">奢侈品热词</a><br/>
+					</li>
+					<li>
+						<a href="#">加入寺库</a><br/>
+						<a href="#">联系我们</a><br/>
+						<a href="#">关于寺库</a><br/>
+						<a href="#">帮助中心</a><br/>
+					</li>
+					<li>
+						<a href="#">寺库奢侈品养护</a><br/>
+						<a href="#">寺库招商</a><br/>
+						<a href="#">Investors</a><br/>
+					</li>
+				</ul>
+				<div class="nfooter-info">
+					<p>
+						<span>统一社会信用代码：91110102689248179K</span>
+						<span><a href="#"><img src="img/pcfooterbatb.png">京公安备11010102001392</a></span>
+						<span>京ICP证110119号 京ICP备09084709号-3</span>
+						<span>ISO9001中国质量管理体系认证</span>
+					</p>
+					<p>COPYRIGHT © 2010-2017 北京寺库商贸有限公司 版权所有</p>
+					<p class="nfooter-info-imgs">
+						<a href="#"><img src="img/f_01.jpg"></a>
+						<a href="#"><img src="img/f_04.jpg"></a>
+						<a href="#"><img src="img/cnnic.png"></a>
+						<a href="#"><img src="img/kexin.jpg"></a>
+						<a href="#"><img src="img/f_03.jpg"></a>
+					</p>
+				</div>
+			</div>
+
+		</div>
+</body>
+</html>
+<script  type="text/javascript" src="js/enter.js"></script>

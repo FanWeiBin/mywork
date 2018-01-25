@@ -1,0 +1,277 @@
+*{
+	margin:0;
+	padding:0;
+    font-size: 12px;
+}
+.carHeader {
+    width: 100%;
+    height: 70px;
+    background: #323232;
+    overflow: hidden;
+}
+.carHeaderCon {
+    width: 990px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.fl {
+    float: left;
+}
+a {
+    text-decoration: none;
+    color: #666666;
+}
+img {
+    vertical-align: middle;
+    border: 0;
+}
+.fr {
+    float: right;
+}
+.center {
+    padding-bottom: 20px;
+    background:#eee;
+}
+.centerBox {
+    width: 990px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+.cartNav {
+    position: relative;
+    z-index: 2;
+    color: #666;
+    margin-bottom: -2px;
+    overflow: hidden;
+
+}
+.padLeft18 {
+    padding-left: 18px;
+}
+.navLogin {
+    line-height: 28px;
+    margin-top: 4px;
+
+}
+.navLogin a {
+    color: #e93b39;
+    padding: 0 10px;
+}
+.cartSlist {
+    width: 986px;
+    border: 1px solid #f1f1f1;
+    padding: 1px;
+    background: #fff;
+    position: relative;
+    z-index: 1;
+}
+.carTable {
+    width: 100%;
+    color: #666;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+thead {
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+.carTable tr th {
+    height: 48px;
+}
+.carTable tr th {
+    height: 38px;
+    background: url(http://pic.secoo.com/imagesPic/newCartPic/c_02.jpg);
+    font-weight: normal;
+    color: #999;
+    border-bottom: 1px solid #fff;
+}
+input[type=checkbox], input[type=radio] {
+    position: relative;
+    top: 3px;
+    margin-right: 5px;
+}
+label {
+    cursor: default;
+}
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+.carTable tr td {
+    padding: 10px 0;
+    background-color: #fff;
+    border-top: 1px solid #ececec;
+    text-align: center;
+    line-height: 22px;
+    margin-top: -1px;
+    padding: 20px 0 15px;
+}
+.carTable tr.addChecked td {
+    background: #fdf0ef;
+}
+.cartBox{
+	width:990px;
+	margin:0 auto;
+}
+.padRight15 {
+    padding-right: 15px;
+}
+.cartPic img {
+    border: 1px solid #ececec;
+}
+.countNum {
+    width: 58px;
+    margin: 0 auto 2px;
+    overflow: hidden;
+}
+.cPlus, .cMinus {
+    width: 11px;
+    height: 18px;
+    line-height: 16px;
+    text-align: center;
+    color: #666;
+    padding-right: 1px;
+    cursor: pointer;
+    background-color: #fff;
+    border: 1px solid #eaeaea;
+}
+.cInput {
+    margin-top: -2px;
+}
+.Num {
+    width: 30px;
+    height: 18px;
+    line-height: 18px;
+    text-align: center;
+    border: 1px solid #eaeaea;
+    border-left: 0;
+    border-right: 0;
+    color: #666;
+}
+.colore93 {
+    color: #e93b39;
+}
+.cartPrice {
+    padding: 15px 45px 25px 30px;
+    margin-top: 6px;
+    position: relative;
+    background-color: #fff;
+    border: 1px solid #f1f1f1;
+}
+.cartAno {
+    width: 300px;
+    height: 30px;
+    position: absolute;
+    left: 31px;
+    top: 17px;
+    overflow: hidden;
+}
+.cartPrice p {
+    text-align: right;
+    padding: 4px 0;
+    color: #333;
+}
+.ano01 {
+    width: 78px;
+    position: relative;
+    top: 1px;
+    left: -1px\9;
+}
+.ano02 {
+    padding-left: 20px;
+    background: url(http://pic.secoo.com/imagesPic/newCartPic/c_06.jpg) no-repeat 0px 0px;
+    cursor: pointer;
+    color: #c69c6d;
+    height: 16px;
+    line-height: 16px;
+    padding-top: 1px;
+}
+.cartPrice p {
+    text-align: right;
+    padding: 4px 0;
+    color: #333;
+    overflow: hidden;
+}
+.cartPrice p strong {
+    font-family: tahoma;
+    color: #e93b39;
+    font-size: 30px;
+    font-weight: normal;
+}
+.a01 {
+    padding: 5px 15px;
+    border: 1px solid #e93b39;
+    color: #e93b39;
+    background: none;
+}
+.a02 {
+    padding: 10px 40px;
+    background-color: #e93b39;
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: microsoft yahei;
+}
+.nfooter{
+	margin-top:1px;
+    padding: 37px 0 66px;
+    background-color: #f5f5f5;
+}
+.nfooter .nfooter-ncontainer{
+	width:1200px;
+	margin:0 auto;
+}
+.nfooter .nfooter-ncontainer ul{
+	font-size: 14px;
+	height:136px;
+}
+.nfooter .nfooter-ncontainer ul li{
+	float: left;
+    width: 236px;
+    line-height: 34px;
+}
+.nfooter .nfooter-ncontainer ul li a{
+	color:#000;
+}
+.nfooter .nfooter-ncontainer ul li a:hover{
+	color:#f8a120;
+}
+.nfooter .nfooter-info{
+	margin-top: 25px;
+    line-height: 36px;
+    font-size: 14px;
+}
+.nfooter .nfooter-info span{
+	margin-right: 28px;
+}
+.nfooter .nfooter-info span a{
+	color:#000;
+}
+.nfooter .nfooter-info-imgs{
+	margin-top:8px;
+	font-size: 14px;
+}
+.nfooter .nfooter-info-imgs a{
+	float: left;
+    margin-right: 20px;
+    width: 108px;
+    height: 40px;
+}
+.nfooter .nfooter-info-imgs a img{
+    width: 108px;
+    height: 40px;
+}

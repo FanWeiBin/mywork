@@ -1,0 +1,499 @@
+body{
+	background: #ededed;
+}
+a{
+	font-size:12px;
+}
+.listPageContent{
+	width: 1200px;
+    margin: 0 auto;
+    color: #666;
+}
+.listPageContent a:hover{
+	color:red;
+}
+.listPageContent .pageTitle{
+	font-size: 12px;
+    color: #5d0e23;
+    padding: 25px 0 16px 0;
+    line-height: 19px;
+    position: relative;
+    z-index: 2;
+}
+.pageTitle span{
+	float:right;
+	color:#666;
+}
+.pageTitle a{
+	text-decoration: none;
+    color: #666;
+    font-size:12px;
+}
+.pageTitle em{
+    font-style: normal;
+    font-weight: normal;
+}
+.pageTitle a h1{
+	display: inline-block;
+    color: #666;
+    font-size:12px;
+}
+.sl-bar-trigger{
+    padding: 0 18px 0 7px;
+    height: 19px;
+    border: 1px solid transparent;
+    position: relative;
+    z-index: 2;
+}
+#selectCondition{
+	background: #fff;
+    width: 1200px;
+}
+.brand_dl{
+	border-bottom: 1px dashed #ededed;
+    min-height: 46px;
+    clear: both;
+    position: relative;
+    overflow: hidden;
+    background: #f5f5f5;
+}
+.brand_dl dt{
+	width: 81px;
+    padding-left: 30px;
+    line-height: 45px;
+    color: #666;
+    font-size:12px;
+}
+.brand_dl dd{
+	float: right;
+	margin-top:-44px;
+    padding-left: 10px;
+    width: 1078px;
+    min-height: 46px;
+    background: #fff;
+    padding-bottom: 15px;
+}
+.smallList{
+    margin: 17px 0;
+    padding-top: 1px;
+    max-height: 198px;
+    min-height:50px;
+    height: auto;
+}
+.smallList ul{
+   width:900px;
+}
+.smallList li{
+	float: left;
+    border: 1px solid #ededed;
+    width: 98px;
+    text-align: center;
+    height: 98px;
+    line-height: 98px;
+    overflow: hidden;
+    margin: 0;
+    border:1px solid #eee;
+}
+.smallList li:hover{
+    border:1px solid #000;
+    /*background:#fff;	*/
+}
+.smallList li a{
+	padding: 0px;
+    position: static;
+    margin: 0;
+    height: 96px;
+    width: 96px !important;
+    line-height: 96px;
+    color: #666;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    zoom: 1;
+}
+.smallList li a img{
+	display: block;
+    width: 80px;
+    height: 80px;
+    margin: 8px;
+}
+.brand_dl a.brandChoice{
+    position: absolute;
+    right: 24px;
+    top: 15px;
+    padding-right: 12px;
+    width: 30px;
+    background-position: 27px -107px;
+    float: right;
+}
+.brand_dl a.brandmore{
+    position: absolute;
+    right: 69px;
+    top: 15px;
+    padding-left: 12px;
+    width: 30px;
+    background-position: 0 -71px;
+}
+#selectCondition .item_dl{
+	border-bottom: 1px dashed #ededed;
+    min-height: 46px;
+    clear: both;
+    position: relative;
+    overflow: hidden;
+    background: #f5f5f5;
+}
+#selectCondition .item_dl dt{
+	width: 81px;
+    padding-left: 30px;
+    line-height: 45px;
+    color: #666;
+    font-size:12px;
+
+}
+#selectCondition .item_dl dd{
+    padding-left: 10px;
+    width: 1078px;
+    min-height: 46px;
+    background: #fff;
+    float: right;
+    margin-top:-44px;
+}
+#selectCondition .item_dl dd .smallList{
+	padding: 1px 0 7px 0;
+	max-height: 70px;
+    height: auto;
+    width: 960px;
+    overflow: hidden;
+    padding: 3px 0 0 0;
+    height: 32px;
+}
+.smallList a{
+	margin: 12px 0 0;
+    height: 22px;
+    padding: 0 22px 0 10px;
+    white-space: nowrap;
+    max-width: 180px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color:#000;
+}
+.smallList a b{
+	color:#999;
+}
+.item_dl .choice{
+	position: absolute;
+    right: 24px;
+    top: 25px;
+    padding-right: 12px;
+    width: 30px;
+    background-position: 27px -107px;
+    color:#666;
+}
+.control{
+	width: 1200px;
+    text-align: center;
+    margin-bottom: 8px;
+}
+.control a{
+	display: block;
+	margin:0 auto;
+	width: 80px;
+    height: 21px;
+    line-height: 21px;
+    background: #fff;
+    margin-top: 1px;
+    box-shadow: 0 2px 5px #ccc;
+    text-indent: 9px;
+    color:#999;
+}
+.product_box{
+	width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.product_tips{
+	background: #fff;
+    margin-left: -1px;
+    height: 40px;
+    font-size: 0;
+}
+.product_tips a{
+	padding: 0 30px;
+    height: 29px;
+    display: inline-block;
+    font: normal 18px/18px "microsoft yahei";
+    color: #999;
+    text-align: center;
+    padding-top: 9px;
+    position: relative;
+}
+.product_tips a:nth-child(1){
+	border-top: 2px solid #e93b39;
+	color: #e93b39;
+}
+#J_Filter{
+	width:1200px;
+	margin:0 auto;
+	padding: 10px 30px 0;
+    min-height: 30px;
+    background: #f5f5f5;
+    font-size: 0;
+    position: relative;
+    z-index:999;
+}
+#J_Filter .product_control_btn {
+    font-size: 0;
+    margin-right: 10px;
+    vertical-align: top;
+}
+#J_Filter .product_control_btn a{
+	float:left;
+	background: #fff;
+    width: 45px;
+    height: 22px;
+    position: relative;
+    text-align: center;
+    border: 1px solid #ededed;
+    margin-left: -1px;
+    line-height: 25px;
+    line-height: 25px\9\0;
+    position: relative;
+    z-index: 1;    
+    line-height: 20px;
+    color:#999;
+}
+#J_Filter .product_control_btn a:nth-child(1){
+	background: #e93b39;
+    border-color: #e93b39;
+    color: #fff;
+}
+.product_control_price{
+	width: 124px;
+    height: 44px;
+    overflow: hidden;
+    vertical-align: middle;
+    margin: -10px 10px 0 0;
+    float:left;
+
+}
+.product_control_price div{
+	width: 104px;
+    height: 24px;
+    padding: 10px 10px 0;
+    font-size: 0;
+    text-align: center;
+    vertical-align: middle;
+    overflow: hidden;
+}
+.product_control_price div span{
+	display: inline-block;
+	width: 45px;
+    height: 22px;
+    border: 1px solid #ededed;
+    background-color: #fff;
+    background-position: 3px -281px;
+    text-align: right;
+}
+.product_control_price div span input{
+	width:45px;
+    height:21px;
+    border: 0 none;
+    margin-top:1px;
+    display: block;
+}
+.product_control_price div i{
+    border-top: 1px solid #acacac;
+    width: 8px;
+    margin: 0 1px;
+    height: 3px;
+    vertical-align: middle;
+    font: bold 12px/16px "Tahoma";
+    
+}
+i, cite, em, var, address, dfn {
+    font-style: italic;
+}
+/*#J_Filter .product_control_check{
+	height: 34px;
+    float:left;
+    vertical-align: top;
+    margin-top: 2px;
+}
+#J_Filter .product_control_check li{
+	padding-right: 15px;
+	width:65px;
+    cursor: pointer;
+    color: #666;
+    padding-top: 4px;
+    float:left;
+}
+#J_Filter .product_control_check li input{
+    vertical-align: middle;	
+}*/
+.product_control_check{
+	height: 34px;
+    vertical-align: top;
+    font: bold 12px/16px "Tahoma";
+}
+.product_control_check li{
+	float:left;
+    padding-right: 15px;
+    cursor: pointer;
+    color: #666;
+    padding-top: 4px;
+}
+.product_control_check li	input{	
+    vertical-align: middle;
+    margin-right:5px;
+}
+.commodity-list{
+	background: #fff;
+    font-size: 0;
+    padding: 30px 20px 2px;
+    overflow: hidden;
+}
+.commodity-list dl{
+	float:left;
+	width: 238px;
+    height: 360px;
+    margin: 0 20px 56px 20px;
+    padding:0 4px;
+    vertical-align: top;
+    position: relative;
+    z-index: 1;
+    border:2px solid #fff;
+}
+.commodity-list dl:hover{
+    border:2px solid #eee;
+}
+.commodity-list dl img{
+    width:238px;
+}
+.commodity-list dl div.show_tips{
+	transition: border-color 1s cubic-bezier(0.35, 0.2, 0.55, 1.0);
+    border-color: #dedcdc;
+}
+#dl_tips {
+    height: 16px;
+    width: 240px;
+    font-size: 0;
+    margin-top: 15px;
+}
+#s2 {
+    background: #e93b39;
+    font: bold 12px/16px "Tahoma";
+    color:#fff;
+    padding:1px 3px;
+}
+.commodity-list dl dd.dl_name {
+    height: 40px;
+    padding: 8px 0 3px;
+    line-height: 15px;
+    overflow: hidden;
+    border-top: 1px solid #ebebeb;
+    margin-top: 10px;
+}
+.commodity-list dl dd.dl_name a {
+    color: #323232;
+}
+.commodity-list dl dd.dl_price {
+    padding-top: 3px;
+    width:100%;
+    height:16px;
+}
+#secoo_price_17389621{
+    float: left;
+    line-height: 16px;
+    font: bold 12px/16px "Tahoma";
+}
+.commodity-list dl dd.dl_price del {
+    float: right;
+    color: #999;
+    font: normal 12px/16px;
+    text-decoration: none;
+    font: bold 12px/16px "Tahoma";
+}
+.product_page {
+    background: #fff;
+    font-size: 0;
+    text-align: center;
+    padding-bottom: 40px;
+    margin-top: -19px;
+}
+.product_page a.off {
+    color: #999;
+    border-color: #ccc;
+    background: none;
+}
+.product_page a{
+	line-height:22px;
+    border:1px solid #eee;
+    vertical-align: middle;
+    padding:5px 8px;
+    margin-right:10px;
+    color:#999;
+}
+
+.product_page span {
+    width: 12px;
+    height: 24px;
+    margin-left: 8px;
+    vertical-align: bottom;
+    line-height: 22px;
+    color: #666;
+    font: bold 12px/16px "Tahoma";
+
+}
+.product_page strong {
+    height: 22px;
+    line-height: 22px;
+    font-size: 12px;
+    color: #666;
+    margin: 0 10px;
+    font-weight: normal;
+    vertical-align: 8px;
+    vertical-align: middle;
+}
+.product_page strong i {
+    font-style: normal;
+    font-weight: bold;
+    display: inline-block;
+    padding: 0 3px 0 2px;
+}
+.product_page strong input{	
+	width:30px;
+	height:20px;
+	text-align:center;
+	line-height:20px;
+	border:1px solid #eee;
+}
+.bgf {
+    background: #fff;
+}
+.search-other {
+    width:707px;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+.searchInput {
+    position: relative;
+    height: 31px;
+    border: 2px solid #463b7f;
+}
+.search-other .searchInput input{
+	border:0;
+    width:640px;
+    height:31px;
+}
+.nbtn-fl{
+    float: right;
+    width:69px;
+    height:32px;
+    margin-top:-33px;
+    text-align: center;
+    line-height:32px;
+    background:#5b4f9d;
+}
+.nbtn-fl a{
+color:#fff;
+}
